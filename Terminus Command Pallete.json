@@ -1,0 +1,56 @@
+///////////////////////////////////////////////////////////
+//    visit [ https://wordlex.org/ ]
+//////////////////////////////////////////////////////////
+
+//The default key shortcut to open Terminus in Sublime Text is:
+
+// Ctrl+Shift+T (Windows/Linux)
+// Command+Shift+T (macOS)
+
+[
+
+	// This item opens Command Prompt in a new window 
+	{
+         "caption": "Command Prompt (new Window)",
+         "command": "terminus_open",
+         "args"   : {
+         	"cmd": "cmd.exe",
+         "cwd": "${file_path:${folder}}",
+            "title": "Command Prompt"
+         }
+    },
+
+    //This item Opens Command Prompt in the panel at the bottom of the screen 
+         "caption": "Command Prompt (panel)",
+         "command": "terminus_open",
+         "args"   : {
+         	"cmd": "cmd.exe",
+            "cwd": "${file_path:${folder}}",
+            "title": "Command Prompt",
+            "panel_name": "Terminus"
+         }
+    },
+
+    // Opens Git Bash in new window 
+	{
+         "caption": "Git Bash (new Window)",
+         "command": "terminus_open",
+         "args"   : {
+         	"cmd": ["C:\\Program Files\\Git\\bin\\bash.exe", "-i", "-l"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Git Bash"
+         }
+    },
+
+    // Opens Git Bash in panel 
+    {
+         "caption": "Git Bash (panel)",
+         "command": "terminus_open",
+         "args"   : {
+         	"cmd": ["C:\\Program Files\\Git\\bin\\bash.exe", "-i", "-l"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Git Bash",
+            "panel_name": "Terminus"
+         }
+    }
+]
