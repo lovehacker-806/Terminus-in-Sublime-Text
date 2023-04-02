@@ -25,7 +25,9 @@ Using Terminus can make it much easier to write a README guide, as you can quick
 The default key shortcut to open Terminus in Sublime Text is:
 
 Ctrl+Shift+T (Windows/Linux)
+
 Command+Shift+T (macOS)
+
 You can also customize this key shortcut by going to "Preferences" > "Package Settings" > "Terminus" > "Key Bindings" and adding your preferred key shortcut.
 
 ## Acknowledgements
