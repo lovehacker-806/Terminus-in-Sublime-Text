@@ -28,7 +28,7 @@ Ctrl+Shift+T (Windows/Linux)
 
 Command+Shift+T (macOS)
 
-You can also customize this key shortcut by going to "Preferences" > "Package Settings" > "Terminus" > "Key Bindings" and adding your preferred key shortcut.
+You can also customize this key shortcut by going to <b>"Preferences" > "Package Settings" > "Terminus" > "Key Bindings"</b> and adding your preferred key shortcut.
 
 ## Acknowledgements
 More information here: https://github.com/randy3k/Terminus
