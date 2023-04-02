@@ -4,6 +4,7 @@ This repositories includes some JSON code that should help you add terminal pane
 
 ## Requirements
 operating system [windows/linux/macOS] 
+
 Sublime Text 4 latest version available here: https://www.sublimetext.com/
 
 ## Install Terminus
