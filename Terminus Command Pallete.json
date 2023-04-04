@@ -17,10 +17,13 @@
          	"cmd": "cmd.exe",
          "cwd": "${file_path:${folder}}",
             "title": "Command Prompt"
+         }
     },
 
     //This item Opens Command Prompt in the panel at the bottom of the screen 
-         "caption": "Command Prompt (panel)",
+       {
+
+        "caption": "Command Prompt (panel)",
          "command": "terminus_open",
          "args"   : {
          	"cmd": "cmd.exe",
